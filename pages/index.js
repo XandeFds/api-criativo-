@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from 'next/link';
 function home (){
     return <div> 
         <h1>home </h1>
-        <Link>
-        <a href=" /sobre"> acessar pagina </a>
+        <Link href=" /sobre">
+        <a > acessar pagina </a>
         </Link>
        
       
