@@ -1,8 +1,9 @@
+
+import data from '../data.json'
 function tempo (rest,res){
-const dynamicDate = new Date ();
-res.json({
-    date: dynamicDate.toGMTString()
-});
+   
+
+res.json(data);
 }
 
 export default tempo;
